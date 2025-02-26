@@ -1,14 +1,5 @@
-"use client";
+import { redirect } from "next/navigation";
 
-import { useRouter } from "next/navigation";
-import { useEffect } from "react";
-
-export default function HomePage() {
-  const router = useRouter();
-
-  useEffect(() => {
-    router.replace("/fsw-donalds");
-  }, [router]);
-
-  return null;
+export default function Home() {
+  return redirect("/fsw-donalds");
 }
