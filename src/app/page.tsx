@@ -1,9 +1,5 @@
-import { redirect } from "next/navigation";
+const HomePage = () => {
+  return;
+};
 
-export function generateMetadata() {
-  redirect("/fsw-donalds");
-}
-
-export default function Home() {
-  return null;
-}
+export default HomePage;

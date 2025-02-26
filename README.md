@@ -1,36 +1,86 @@
-This is a [Next.js](https://nextjs.org) project bootstrapped with [`create-next-app`](https://nextjs.org/docs/app/api-reference/cli/create-next-app).
+# FullstackWeek-Donalds
+### Versão Mobile
+<p>
+O FullstackWeek-Donalds é um sistema de delivery inspirado no McDonald's. Ele permite que os clientes visualizem o cardápio, incluindo preços e descrições dos produtos, e adicionem itens à sacola para realizar pedidos.
+Este projeto foi feito a partir de uma imersão do YouTube no canal Felipe Rocha • Full Stack Club, onde em 5 aulas ao vivo foi desenvolvido este incrível projeto da Full Stack Week do <a href=https://github.com/felipemotarocha> Felipe Mota Rocha</a>.
 
-## Getting Started
 
-First, run the development server:
+![Imagem do projeto](public/FSWDonald’s.png)
 
-```bash
-npm run dev
-# or
-yarn dev
-# or
-pnpm dev
-# or
-bun dev
-```
+ ### 🚀 Tecnologias Utilizadas
 
-Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
+- Next.js 15.1.6
 
-You can start editing the page by modifying `app/page.tsx`. The page auto-updates as you edit the file.
+- React ^19.0.0
 
-This project uses [`next/font`](https://nextjs.org/docs/app/building-your-application/optimizing/fonts) to automatically optimize and load [Geist](https://vercel.com/font), a new font family for Vercel.
+- TypeScript ^5
 
-## Learn More
+- Prisma ^6.2.1
 
-To learn more about Next.js, take a look at the following resources:
+- Zod ^3.24.2
 
-- [Next.js Documentation](https://nextjs.org/docs) - learn about Next.js features and API.
-- [Learn Next.js](https://nextjs.org/learn) - an interactive Next.js tutorial.
+- @hookform/resolvers ^4.1.2
 
-You can check out [the Next.js GitHub repository](https://github.com/vercel/next.js) - your feedback and contributions are welcome!
+- Lucide React ^0.475.0
 
-## Deploy on Vercel
+- Tailwind CSS ^3.4.1
 
-The easiest way to deploy your Next.js app is to use the [Vercel Platform](https://vercel.com/new?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme) from the creators of Next.js.
+- ESLint ^9
 
-Check out our [Next.js deployment documentation](https://nextjs.org/docs/app/building-your-application/deploying) for more details.
+- TS-Node ^10.9.2
+
+ ### 💡 Funcionalidades
+
+- Exibição de cardápio com imagens, descrição e preço dos produtos.
+
+- Possibilidade de adicionar e remover itens da sacola.
+
+- Permite que o cliente adicione quantos itens desejar ao carrinho.
+
+- Opção de excluir itens individualmente ou limpar toda a sacola.
+
+- Exibição do valor total da compra em tempo real.
+
+- Possibilidade de cancelar a compra antes da finalização do pedido.
+
+- Resumo do pedido antes da finalização.
+
+- Layout responsivo e moderno utilizando Tailwind CSS.
+
+- Exibição de cardápio com imagens, descrição e preço dos produtos.
+
+
+ ### 📖 Como Executar o Projeto
+
+#### Pré-requisitos
+
+Node.js e npm instalados.
+
+1. Clone o repositório:
+
+   ```bash
+     https://github.com/DevGabrielrr/Donalds-fullstackweek.git
+   ```
+
+2. Navegue até o diretório do projeto:
+
+   ```bash
+   cd nome-do-repositorio
+   ```
+
+3. Atualize o projeto, Em seu terminal e na pasta do projeto
+
+   ```bash
+   npm install
+   ```
+
+4. Rodar o projeto
+
+   ```bash
+   npm run dev
+   ```
+5. Ao rodar o projeto use
+
+   ```bash
+    http://localhost:3000/fsw-donalds 
+    ```
